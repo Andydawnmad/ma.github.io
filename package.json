@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "vite build && vite preview",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@dotlottie/player-component": "^2.7.12",
+    "@popperjs/core": "^2.11.8",
     "@types/react-lottie": "1.2.10",
     "react": "^18.2.0",
     "react-audio-player": "0.17.0",
@@ -35,6 +37,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.4.2",
-    "vite": "^5.1.6"
+    "vite": "^5.4.10"
   }
 }
